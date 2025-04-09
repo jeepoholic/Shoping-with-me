@@ -6,17 +6,23 @@ import Workflow from "./components/Workflow";
 import Pricing from "./components/Pricing";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
+import CustomCursorTrail from "./components/CustomCursorTrail";
 
 const App = () => {
   return (
-    <div className="text-purple-100">
-      <Navbar />
-      <HeroSection />
-      <Feature />
-      <Workflow />
-      <Pricing/>
-      <Testimonial/>
-      <Footer/>
+    <div className="cursor-none">
+      <CustomCursorTrail />
+      {
+        <div className="text-purple-100">
+          <Navbar />
+          <HeroSection />
+          <Feature />
+          <Workflow />
+          <Pricing />
+          <Testimonial />
+          <Footer />
+        </div>
+      }
     </div>
   );
 };
