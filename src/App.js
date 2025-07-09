@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-no-undef */
 import React from "react";
 import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
 import Feature from "./components/Feature";
 import Workflow from "./components/Workflow";
-import Pricing from "./components/Pricing";
+import Certification from "./components/Certification";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 import CustomCursorTrail from "./components/CustomCursorTrail";
@@ -18,7 +19,7 @@ const App = () => {
           <HeroSection />
           <Feature />
           <Workflow />
-          <Pricing />
+          <Certification/>
           <Testimonial />
           <Footer />
         </div>

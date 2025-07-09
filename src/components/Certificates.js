@@ -2,7 +2,7 @@ import React from "react";
 import { pricingOptions } from "../constants";
 import { CheckCircle2 } from "lucide-react";
 
-const Pricing = () => {
+const Certificates = () => {
   return (
     <div className="mt-10">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center my-8 tracking-wider">
@@ -47,4 +47,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Certificates;

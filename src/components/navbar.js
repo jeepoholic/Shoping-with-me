@@ -2,6 +2,7 @@ import logo from "../assets/logo.png";
 import { useState } from "react";
 import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
+import Resume from "../assets/Resume.pdf";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
           <div className="flex justify-between items-start">
             <div className="flex item-center flex-shrink-0">
               <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
-              <span className="text-xl tracking-tighter mt-2">Shopoholic!</span>
+              <span className="text-xl tracking-tighter mt-2">My Portfolio!</span>
             </div>
             <ul className="hidden lg:flex ml-14 space-x-12 mt-3">
               {navItems.map((item, index) => (
@@ -26,17 +27,25 @@ const Navbar = () => {
               ))}
             </ul>
 
-            <div className="hidden lg:flex justify-start space-x-12 items-center mt-2">
-              <a href="#" className="py-2 px-2 border rounded-md">
-                Sign In
-              </a>
+       
+
+            <div className="hidden lg:flex justify-start space-x-6 items-center mt-2">
               <a
-                href="#"
+                href={Resume}
+                download="Nabila Khan Frontend Dev"
                 className="py-2 px-2 bg-gradient-to-r from-purple-500 to-purple-800 rounded-md"
               >
-                Create an account
+                {" "}
+                Download Resume
+              </a>
+              <a
+                href="https://www.behance.net/nabilakhan0125"
+                className="py-2 px-2 border rounded-md"
+              >
+                See Portfolio
               </a>
             </div>
+
             <div className="lg:hidden md-flex flex-col justify-end ">
               <button onClick={toggleNavbar}>
                 {mobileDrawerOpen ? <X /> : <Menu />}
@@ -52,15 +61,20 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex justify-start space-x-6 items-center">
-                <a href="#" className="py-2 px-2 border rounded-md">
-                  Sign In
+              <div className="">
+                <a
+                  href={Resume}
+                  download="Nabila Khan Frontend Dev"
+                  className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-4 mx-3 rounded-md "
+                >
+                  {" "}
+                  Download Resume
                 </a>
                 <a
-                  href="#"
-                  className="py-2 px-2 bg-gradient-to-r from-purple-500 to-purple-800 rounded-md"
+                  href="https://www.behance.net/nabilakhan0125"
+                  className="py-3 px-4 border rounded-md"
                 >
-                  Create an account
+                  See Portfolio
                 </a>
               </div>
             </div>

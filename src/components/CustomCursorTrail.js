@@ -10,7 +10,7 @@ const CustomCursorTrail = () => {
     const handleMouseMove = (e) => {
       const dot = document.createElement("div");
       dot.className =
-        "w-1 h-1 bg-purple-900 rounded-full absolute opacity-70";
+        "w-2 h-2 bg-purple-900 rounded-full absolute opacity-50";
       dot.style.left = `${e.clientX}px`;
       dot.style.top = `${e.clientY}px`;
       wrapper.appendChild(dot);
