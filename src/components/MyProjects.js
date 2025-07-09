@@ -3,7 +3,7 @@ import codeImg from "../assets/code.jpg";
 import clothsImg from "../assets/cloths.jpg";
 import { checklistItems } from "../constants";
 
-const Workflow = () => {
+const MyProjects = () => {
   return (
     <div className="mt-20">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center mt-6">
@@ -57,7 +57,7 @@ const Workflow = () => {
   );
 };
 
-export default Workflow;
+export default MyProjects;
 
 {
   /* <div className="pt-10 w-full lg:w-1/2">

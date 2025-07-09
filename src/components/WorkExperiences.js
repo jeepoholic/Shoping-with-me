@@ -1,7 +1,7 @@
 import React from "react";
 import { features } from "../constants";
 
-const FeatureSection = () => {
+const WorkExperience = () => {
   return (
     <div>
       <div className="relative mt-10   ">
@@ -57,4 +57,4 @@ const FeatureSection = () => {
   );
 };
 
-export default FeatureSection;
+export default WorkExperience;

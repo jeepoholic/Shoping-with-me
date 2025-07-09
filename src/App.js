@@ -2,8 +2,8 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import HeroSection from "./components/HeroSection";
-import Feature from "./components/Feature";
-import Workflow from "./components/Workflow";
+import WorkExperience from "./components/WorkExperiences";
+import MyProjects from "./components/MyProjects";
 import Certification from "./components/Certification";
 import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
@@ -17,10 +17,10 @@ const App = () => {
         <div className="text-purple-100">
           <Navbar />
           <HeroSection />
-          <Feature />
-          <Workflow />
-          <Certification/>
-          <Testimonial />
+          <WorkExperience />
+          <MyProjects />
+          {/* <Certification/>
+          <Testimonial /> */}
           <Footer />
         </div>
       }
