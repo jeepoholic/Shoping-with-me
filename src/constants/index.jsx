@@ -4,6 +4,7 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import HeroSection from "../components/HeroSection.js";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,10 +14,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "About Me", href: "#" },
-  { label: "Experience", href: "#" },
-  { label: "Projects", href: "#" },
-  { label: "Blogs", href: "#" },
+  { label: "About Me", href: "/HeroSection.js" },
+  { label: "Experience", href: "/WorkExperiences.js" },
+  { label: "Projects", href: "/MyProjects.js" },
+  
 ];
 
 export const testimonials = [
@@ -244,3 +245,13 @@ export const communityLinks = [
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
+
+
+
+
+// UI UX DESiGNER, AND FRONTEND DEVELOPER Sept. 2024 ‑ Present
+// • Designed and delivered clean UI layouts daily, focusing on user‑first features that improved satisfaction by 90%.
+// • Clearly presented designs to stakeholders, ensuring smooth feedback cycles and achieving a 95% approval rate.
+// • Crafted intuitive, developer‑friendly UI components that sped up handover and reduced development time by 30%.
+// • Built responsive, consistent interfaces using React.js, Next.js, and Tailwind CSS, boosting UI performance by 80%.
+// • Optimized performance and interactivity, improving load times and user experience by 85%.
